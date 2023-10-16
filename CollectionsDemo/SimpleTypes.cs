@@ -29,8 +29,15 @@ namespace CollectionsDemo
                 Console.WriteLine("Lets play around with these");
                 demoString = inputRaw.ToString();
 
-            } while (!isNumber); 
-            
+            } while (!isNumber);
+
+            isCopied = isNumber;
+            Console.WriteLine(isCopied);
+            Console.WriteLine("If we change isCopied, does isNumber change?");
+            Console.ReadKey();
+            isCopied = !isCopied;
+            Console.WriteLine($"Lets try isNumber: {isNumber} and isCopied after change of isCopied to !isCopied: {isCopied}");
+            Console.ReadKey();
         }
     }
 }
