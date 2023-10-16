@@ -12,3 +12,17 @@ C:\Users\bjorn.bergdahl\source\repos\CollectionsAndTypesDemo\CollectionsDemo\obj
 C:\Users\bjorn.bergdahl\source\repos\CollectionsAndTypesDemo\CollectionsDemo\obj\Debug\net6.0\CollectionsDemo.pdb
 C:\Users\bjorn.bergdahl\source\repos\CollectionsAndTypesDemo\CollectionsDemo\obj\Debug\net6.0\CollectionsDemo.genruntimeconfig.cache
 C:\Users\bjorn.bergdahl\source\repos\CollectionsAndTypesDemo\CollectionsDemo\obj\Debug\net6.0\ref\CollectionsDemo.dll
+D:\repos\CollectionsAndTypesDemo\CollectionsDemo\bin\Debug\net6.0\CollectionsDemo.exe
+D:\repos\CollectionsAndTypesDemo\CollectionsDemo\bin\Debug\net6.0\CollectionsDemo.deps.json
+D:\repos\CollectionsAndTypesDemo\CollectionsDemo\bin\Debug\net6.0\CollectionsDemo.runtimeconfig.json
+D:\repos\CollectionsAndTypesDemo\CollectionsDemo\bin\Debug\net6.0\CollectionsDemo.dll
+D:\repos\CollectionsAndTypesDemo\CollectionsDemo\bin\Debug\net6.0\CollectionsDemo.pdb
+D:\repos\CollectionsAndTypesDemo\CollectionsDemo\obj\Debug\net6.0\CollectionsDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\CollectionsAndTypesDemo\CollectionsDemo\obj\Debug\net6.0\CollectionsDemo.AssemblyInfoInputs.cache
+D:\repos\CollectionsAndTypesDemo\CollectionsDemo\obj\Debug\net6.0\CollectionsDemo.AssemblyInfo.cs
+D:\repos\CollectionsAndTypesDemo\CollectionsDemo\obj\Debug\net6.0\CollectionsDemo.csproj.CoreCompileInputs.cache
+D:\repos\CollectionsAndTypesDemo\CollectionsDemo\obj\Debug\net6.0\CollectionsDemo.dll
+D:\repos\CollectionsAndTypesDemo\CollectionsDemo\obj\Debug\net6.0\refint\CollectionsDemo.dll
+D:\repos\CollectionsAndTypesDemo\CollectionsDemo\obj\Debug\net6.0\CollectionsDemo.pdb
+D:\repos\CollectionsAndTypesDemo\CollectionsDemo\obj\Debug\net6.0\CollectionsDemo.genruntimeconfig.cache
+D:\repos\CollectionsAndTypesDemo\CollectionsDemo\obj\Debug\net6.0\ref\CollectionsDemo.dll

@@ -8,7 +8,7 @@ namespace CollectionsDemo
 {
     public class SimpleTypes
     {
-        public void DemoValueType()
+        public static void DemoValueType()
         {
             bool isNumber= false;
             string demoString;
