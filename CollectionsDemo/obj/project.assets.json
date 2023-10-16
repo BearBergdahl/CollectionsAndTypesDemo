@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bjorn.bergdahl\\source\\repos\\CollectionsAndTypesDemo\\CollectionsDemo\\CollectionsDemo.csproj",
+      "projectUniqueName": "D:\\repos\\CollectionsAndTypesDemo\\CollectionsDemo\\CollectionsDemo.csproj",
       "projectName": "CollectionsDemo",
-      "projectPath": "C:\\Users\\bjorn.bergdahl\\source\\repos\\CollectionsAndTypesDemo\\CollectionsDemo\\CollectionsDemo.csproj",
+      "projectPath": "D:\\repos\\CollectionsAndTypesDemo\\CollectionsDemo\\CollectionsDemo.csproj",
       "packagesPath": "C:\\Users\\bjorn.bergdahl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bjorn.bergdahl\\source\\repos\\CollectionsAndTypesDemo\\CollectionsDemo\\obj\\",
+      "outputPath": "D:\\repos\\CollectionsAndTypesDemo\\CollectionsDemo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
