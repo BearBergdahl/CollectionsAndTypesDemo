@@ -8,7 +8,7 @@ namespace CollectionsDemo
 {
     public class SimpleTypes
     {
-        public static void DemoValueType()
+        public static void DemoSimpleType()
         {
             bool isNumber= false;
             string demoString;
@@ -20,11 +20,11 @@ namespace CollectionsDemo
             {
                 Console.WriteLine("Please enter integer value");
                 var inputRaw = Console.ReadLine();
-                Console.WriteLine($"Now what type is the input? {inputRaw.GetType}");
+                Console.WriteLine($"Now what type is the input? {inputRaw.GetType()}");
                 isNumber = int.TryParse(inputRaw, out result);
                 if (isNumber)
                 { 
-                    Console.WriteLine($"Int result parsed: {result}, of type: {result.GetType}"); 
+                    Console.WriteLine($"Int result parsed: {result}, of type: {result.GetType()}"); 
                 }
                 Console.WriteLine("Lets play around with these");
                 demoString = inputRaw.ToString();

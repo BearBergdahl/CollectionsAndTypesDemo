@@ -6,7 +6,7 @@ namespace CollectionsDemo
     {
         public static void Main(string[] args)
         {
-            SimpleTypes.DemoValueType();
+            SimpleTypes.DemoSimpleType();
         }
     }
 }
