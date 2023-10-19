@@ -8,13 +8,7 @@ namespace CollectionsDemo
 {
     public class SimpleTypes
     {
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param type = int, name="whatever"></param>
-        /// <param name="something"></param>
-        /// <param name="nothing"></param>
-        public static void DemoSimpleType(int whatever, string something, double nothing)
+        public static void DemoSimpleType()
         {
             bool isNumber= false;
             string demoString = new(String.Empty);
@@ -48,7 +42,7 @@ namespace CollectionsDemo
             Console.WriteLine($"Can we access method from a value type? Yes: {result.ToString()}");
             Console.WriteLine($"Can we access method from a raw value? Well, yes we can: {13.ToString()} What's the type of twelve? and 12? and 12.0? ");
             Console.WriteLine($"Twelve is a: {"twelve".GetType()} it can be uppercased {"twelve".ToUpper()}");
-            Console.WriteLine($"12 is a: {12.GetType()} it can be compared to another int {12.CompareTo(result)}");
+            Console.WriteLine($"12 is a: {12.GetType()} it can be compared to another int like our manual input {12.CompareTo(result)} and we get the difference to 12");
         }
     }
 }

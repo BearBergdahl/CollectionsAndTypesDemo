@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CollectionsDemo
 {
-    internal class NotSoSimpleTypes
+    public static class NotSoSimpleTypes
     {
+        
     }
 }
