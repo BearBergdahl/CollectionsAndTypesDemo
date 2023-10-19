@@ -8,14 +8,20 @@ namespace CollectionsDemo
 {
     public class SimpleTypes
     {
-        public static void DemoSimpleType()
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param type = int, name="whatever"></param>
+        /// <param name="something"></param>
+        /// <param name="nothing"></param>
+        public static void DemoSimpleType(int whatever, string something, double nothing)
         {
             bool isNumber= false;
-            string demoString;
-            int result;
-            bool isCopied;
-            string copyString;
-            int copyResult;
+            string demoString = new(String.Empty);
+            int result = default;
+            bool isCopied = new();
+            string copyString = default;
+            int copyResult= new();  
             do
             {
                 Console.WriteLine("Please enter integer value");
@@ -38,6 +44,11 @@ namespace CollectionsDemo
             isCopied = !isCopied;
             Console.WriteLine($"Lets try isNumber: {isNumber} and isCopied after change of isCopied to !isCopied: {isCopied}");
             Console.ReadKey();
+
+            Console.WriteLine($"Can we access method from a value type? Yes: {result.ToString()}");
+            Console.WriteLine($"Can we access method from a raw value? Well, yes we can: {13.ToString()} What's the type of twelve? and 12? and 12.0? ");
+            Console.WriteLine($"Twelve is a: {"twelve".GetType()} it can be uppercased {"twelve".ToUpper()}");
+            Console.WriteLine($"12 is a: {12.GetType()} it can be compared to another int {12.CompareTo(result)}");
         }
     }
 }
