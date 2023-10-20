@@ -13,10 +13,11 @@ namespace CollectionsDemo
                 Console.WriteLine("1. Demo Value Types");
                 Console.WriteLine("2. Demo Structs");
                 Console.WriteLine("3. Demo Enum");
-                Console.WriteLine("4. Exit");
+                Console.WriteLine("4. Demo Sammansatta datastrukturer");
+                Console.WriteLine("9. Exit");
                 string selection = Console.ReadKey().KeyChar.ToString();
-                letsGo = int.TryParse(selection, out selected);               
-                
+                letsGo = int.TryParse(selection, out selected);
+
                 switch (selected)
                 {
                     case 1:
@@ -28,10 +29,13 @@ namespace CollectionsDemo
                     case 3:
                         NotSoSimpleTypes.LetsEnum();
                         break;
+                    case 4:
+                        ComponentTypes.ArrayDemo();
+                        break;
                     default:
                         break;
                 }
-            } while (letsGo && selected != 4);                               
+            } while (letsGo && selected != 9);
         }
     }
 }
