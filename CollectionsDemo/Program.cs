@@ -13,7 +13,7 @@ namespace CollectionsDemo
                 Console.WriteLine("1. Demo Value Types");
                 Console.WriteLine("2. Demo Structs");
                 Console.WriteLine("3. Demo Enum");
-                Console.WriteLine("4. Demo Sammansatta datastrukturer");
+                Console.WriteLine("4. Demo Reference Data values");
                 Console.WriteLine("9. Exit");
                 string selection = Console.ReadKey().KeyChar.ToString();
                 letsGo = int.TryParse(selection, out selected);
@@ -30,7 +30,7 @@ namespace CollectionsDemo
                         NotSoSimpleTypes.LetsEnum();
                         break;
                     case 4:
-                        ComponentTypes.ArrayDemo();
+                        ReferenceTypes.ObjectDemo();
                         break;
                     default:
                         break;

@@ -66,7 +66,7 @@ namespace CollectionsDemo
         public static string GetPlace(CharacterLocationInGrid character)
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append("Your charcher are in grid ");
+            sb.Append("Your character are in grid ");
             sb.Append(character.X);
             sb.Append(",");
             sb.Append(character.Y);

@@ -10,10 +10,11 @@ namespace CollectionsDemo
     {
         public static void DemoSimpleType()
         {
-            bool isNumber= false;
+            bool isNumber = default;
             string demoString = new(String.Empty);
             int result = default;
             bool isCopied = new();
+            Guid guid = Guid.NewGuid();
             string copyString = default;
             int copyResult= new();  
             do
@@ -28,6 +29,7 @@ namespace CollectionsDemo
                 }
                 Console.WriteLine("Lets play around with these");
                 demoString = inputRaw.ToString();
+                demoString = inputRaw;
 
             } while (!isNumber);
 
@@ -38,7 +40,6 @@ namespace CollectionsDemo
             isCopied = !isCopied;
             Console.WriteLine($"Lets try isNumber: {isNumber} and isCopied after change of isCopied to !isCopied: {isCopied}");
             Console.ReadKey();
-
             Console.WriteLine($"Can we access method from a value type? Yes: {result.ToString()}");
             Console.WriteLine($"Can we access method from a raw value? Well, yes we can: {13.ToString()} What's the type of twelve? and 12? and 12.0? ");
             Console.WriteLine($"Twelve is a: {"twelve".GetType()} it can be uppercased {"twelve".ToUpper()}");
